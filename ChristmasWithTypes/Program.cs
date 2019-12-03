@@ -14,13 +14,13 @@ namespace ChristmasWithTypes
             xmas.Santa = null;
 
             //TODO Insert 3 presents you would like for xmas.  They must be strings
-            xmas.Presents =  new string[3]{ "Xbox", "Nintendo Switch", "iPhone X"}; 
+            xmas.Presents =  new string[3]{ }; 
 
             //TODO Set the TreeHeight to 10
             xmas.TreeHeight = null;
 
-            Console.WriteLine($"This year christmas falls on {xmasDay}");
-            Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high");
+            Console.WriteLine($"This year christmas falls on {xmasDay} \n");
+            Console.WriteLine($"Our tree will be {xmas.TreeHeight} feet high \n");
             Console.WriteLine("Here are the presents we would like:");
 
             foreach (var present in xmas.Presents)
@@ -28,7 +28,7 @@ namespace ChristmasWithTypes
                 Console.WriteLine($"    {present}");
             }
 
-            Console.WriteLine($"We like to call Santa, {xmas.Santa}");
+            Console.WriteLine($"\n We like to call Santa, {xmas.Santa}");
         }
     }
 }
